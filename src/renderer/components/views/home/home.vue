@@ -8,9 +8,6 @@
     <a href="#">最新音乐</a>
   </div>
   <v-banner :banner="banner"></v-banner>
-  <div class="up">
-    <p>有空再更新吧, you give me the star ???</p>
-  </div>
 </div>
 </template>
 
@@ -29,7 +26,7 @@ export default {
     vBanner
   },
   mounted() {
-    this.loadBanner()
+    // this.loadBanner()
   },
   methods: {
     loadBanner() {
